@@ -1,0 +1,133 @@
+body{
+	background-image:url('img/background2.jpg');
+
+}
+
+
+#topnav{
+	border:2px solid white;
+	margin-top: 90px;
+	width:10%;
+	color:white;
+	margin-bottom: -10px;
+	letter-spacing: 0px;
+	text-shadow:2px 3px 5px rgba(140,140,140,0.2);
+	
+
+}
+
+a:link {color:lightgreen;}
+
+a:visited {
+	color:#7D6641;}
+
+.topnavbuttons{
+	padding:4px;
+}
+
+
+
+header{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 30px;
+	margin-top: -40px;
+	padding: 10px;
+	overflow:auto;
+	margin-left: -2%;
+}
+hr{
+	width: 50%;
+}
+
+.forord{
+	margin-bottom: 60px;
+	width: 67%;
+	color:white;
+	text-shadow:2px 2px 4px white;
+}
+
+section{
+	color:white;
+	background-color: rgba(0,0,0,0.2);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -230px;
+	padding: 20px;
+	width: 60%;
+	height: 60%;
+	border:2px solid rgba(0,0,0,0.4);
+	text-shadow:1px 4px 2px rgba(140,140,140,0.2);
+}
+
+article{
+	width:80%;
+}
+article h1{
+	font-size: 1.5em;
+}
+
+
+aside{
+	visibility: hidden;
+	width:0px;
+	height: 0px;
+}
+
+.bildeboks{
+	width: 1px;
+	height: 1px;
+}
+
+#indextable td{
+	padding-right: 20px;
+
+}
+
+.favorittable th, .favorittable tr, .favorittable td{
+	border: 1px solid white;
+	padding:20px;
+}
+
+.lengerarticlemargin{
+	margin-bottom: 60px;
+}
+
+#facebook{
+	display:block;
+	margin-top: -7%;
+	max-width:100px;
+	max-height:45px;
+	width:auto;
+	height:auto;
+}
+
+#github{
+	display:block;
+	margin-top: -2%;
+	margin-left: -7%;
+	max-width:100px;
+	max-height:50px;
+	width:auto;
+	height:auto;
+}
+
+
+.mailbilde{
+	display:block;
+	margin-top: -2%;
+	margin-left: -10%;
+	max-width:250px;
+	max-height:250px;
+	width:auto;
+	height:auto;
+}
+
+footer{
+	margin-right: auto;
+	margin-left: auto;
+	width:60%;
+	color:white;
+	text-shadow:3px 3px 6px black;
+
+}

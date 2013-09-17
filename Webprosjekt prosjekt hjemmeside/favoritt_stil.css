@@ -1,0 +1,158 @@
+body{
+	background-image:url('img/background.jpg');
+
+}
+
+.topnavglasspane{
+	background-color: rgba(255,255,255,0.7);
+	width:56%;
+	margin-top:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	overflow:auto;
+	border-radius: 4px;
+	padding:2px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+#topnav{
+
+	color:blue;
+	width: 100%;
+	float:left;
+	letter-spacing: 1px;
+	margin-left: -2%;
+	text-shadow:1px 1px 2px rgba(140,140,140,0.2);
+
+
+}
+
+.topnavbuttons{
+	display:inline;
+
+	padding:4px;
+}
+
+
+
+header{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: -40px;
+	border-radius: 10px;
+	padding: 10px;
+	overflow:auto;
+	margin-left: -2%;
+}
+hr{
+	width: 50%;
+}
+
+.forord{
+	margin-bottom: 60px;
+	width: 67%;
+	text-shadow:2px 2px 4px white;
+}
+
+section{
+	background-color: rgba(255,255,255,0.7);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px;
+	width: 50%;
+	height: 50%;
+	border-radius: 6px;
+	box-shadow: 1px 5px 20px black;
+	text-shadow:1px 2px 2px rgba(140,140,140,0.2);
+}
+
+article{
+	width:65%;
+}
+article h1{
+	font-size: 1.5em;
+}
+
+.lengerarticlemargin{
+	width:150%;
+}
+
+.favorittable{
+	padding:20px;
+}
+
+.favorittable th, .favorittable tr, .favorittable td{
+	border: 1px solid black;
+}
+
+#kontaktlinje{
+	padding-top: 20px;
+}
+
+.hoyre {
+	border: 4px dotted rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	float:right;
+	width: 30%;
+	display: block;
+	}
+
+#hoyrebilde{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.bildeboks{
+	display:block;
+	width:auto;
+	height:auto;
+	max-width: 100%;
+	max-height: 250px;
+}
+
+#indextable td{
+	padding-right: 20px;
+}
+
+#facebook{
+	display:block;
+	margin-top: -7%;
+	max-width:100px;
+	max-height:45px;
+	width:auto;
+	height:auto;
+}
+
+#github{
+	display:block;
+	margin-top: -2%;
+	margin-left: -7%;
+	max-width:100px;
+	max-height:50px;
+	width:auto;
+	height:auto;
+}
+
+
+.mailbilde{
+	display:block;
+	margin-top: -2%;
+	margin-left: -10%;
+	max-width:250px;
+	max-height:250px;
+	width:auto;
+	height:auto;
+}
+
+footer{
+	margin-right: auto;
+	margin-left: auto;
+	width:56%;
+	color:white;
+	text-shadow:3px 3px 6px black;
+}
