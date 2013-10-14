@@ -1,0 +1,79 @@
+<h1>Favoritter og om nettsiden.</h1>
+	<hr>
+</header>
+
+<?php
+	include 'sideinfo.html';
+?>
+
+<article>
+	<div class=lengerarticlemargin>
+		<h2>Favoritter:</h2>
+		<p>Her er noen av mine favoritt serier og bøker: </p>
+		<table class="favorittable">
+			<tr>
+				<th>TV-Serier:</th>
+				<th>Filmer:</th>
+				<th>Bøker/Noveller:</th>
+				<th><a href="#visualnovel" class="open-popup-link">Visual Novels:</a></th>
+				<th>Tegneserier/Manga</th>
+			</tr>
+			<tr>
+				<td><a href="#got" class="open-popup-link">Game of Thrones</a></td>
+				<td><a href="#superbad" class="open-popup-link">Superbad</a></td>
+				<td><a href="#hitchhiker" class="open-popup-link">Hitchhiker's Guide to the Galaxy</a></td>
+				<td><a href="#fatestaynight" class="open-popup-link">Fate/Stay Night</a></td>
+				<td><a href="#pondus" class="open-popup-link">Pondus</a></td>
+			</tr>
+			<tr>
+				<td><a href="#house" class="open-popup-link">House</a></td>
+				<td><a href="#lotr" class="open-popup-link">Lord of the Rings serien</a></td>
+				<td><a href="#borntorun" class="open-popup-link">Born to Run</a></td>
+				<td><a href="#umineko" class="open-popup-link">Umineko no Naku Koro ni</a></td>
+				<td><a href="#onanimaster" class="open-popup-link">Onani Master Kurosawa</a></td>
+			</tr>
+			<tr>
+				<td><a href="#akagi" class="open-popup-link">Akagi</a></td>
+				<td><a href="#inception" class="open-popup-link">Inception</a></td>
+				<td><a href="#fatezero" class="open-popup-link">Fate/Zero</a></td>
+				<td><a href="#ever17" class="open-popup-link">Ever17</a></td>
+				<td><a href="#molesterman" class="open-popup-link">Chikan Otoko</a></td>
+			</tr>
+			<tr>
+				<td><a href="#knk" class="open-popup-link">Kara no Kyoukai</a></td>
+				<td><a href="#fightclub" class="open-popup-link">Fight Club</a></td>
+				<td><a href="#iwoz" class="open-popup-link">iWoz</a></td>
+				<td><a href="#narcissu" class="open-popup-link">Narcissu</a></td>
+				<td><a href="#watamote" class="open-popup-link">It's not my fault that I am not popular</a></td>
+			</tr>
+		</table>
+
+		<script>
+		$('.open-popup-link').magnificPopup({
+			type:'inline',
+			midClick: true
+		});
+		</script>
+
+		<?php
+		include "serier.html";
+		?>
+
+		<h2>Om nettsiden:</h2>
+
+		<p>Denne nettsiden er laget i webprosjekt som min første obligatoriske oppgave. Den har en rekke krav som du kan finne her: <a href=https://github.com/hioa-cs/webprosjekt/blob/master/oppgaver/Oblig1.md target="blank_">på HioA CS sin GitHub</a>.</p>
+		<p>Jeg har tatt inspirasjon fra <a href=https://www.apple.com/no/ios/ target="blank_">iOS7</a>, <a href=http://tv.nrk.no/ target="blank_">NRK</a> sine sider og <a href=https://www.squarespace.com/templates/ target="blank_">SquareSpace</a>. Personlig synes jeg det virker som et gjennomsiktig glass design begynner å bli moderne. Det samme virker det som ganske klar side med solide farger uten alt for mange gjennomsiktige elementer er. Derfor har jeg prøvd å bruke slikt i dette prosjektet ettersom vi har relativt frie tøyler i akkurat denne obligatoriske oppgaven.</p> 
+
+		<button class="button">Changelog:</button>
+			<?php
+			include "changelog.html"
+			?>
+			
+		<?php
+		include "dukanfinne.html";
+		?>
+	</div>
+			
+</article>
+
+</section>

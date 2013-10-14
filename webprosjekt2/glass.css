@@ -1,0 +1,191 @@
+/*Dette er "Glass" CSSen.*/
+
+body{
+	background-image:url('img/background.jpg');
+
+}
+
+.button{
+font-size:14px;
+background-color:rgba(0,0,0,0);
+display:inline-block;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+margin-bottom:5px;
+}
+
+#stilmellomrom{
+	padding-left: 37%;
+}
+
+.topnavglasspane{
+	background-color: rgba(255,255,255,0.4);
+	width:1070px;
+	margin-top:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	overflow:auto;
+	border-radius: 4px;
+	padding:2px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+nav{
+	color:black;
+	width: 100%;
+	letter-spacing: 1px;
+	margin-left: -2%;
+	text-shadow:1px 1px 2px rgba(140,140,140,0.2);
+}
+
+
+.topnavbuttons{
+	display:inline;
+
+	padding:4px;
+}
+
+.white-popup {
+  position: relative;
+  background: rgba(255,255,255,0.85);
+  padding: 40px;
+  width: auto;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.seriebilde{
+	margin:auto;
+	max-width: 700px;
+	max-height: 500px;
+	border-radius: 2px;
+}
+
+header{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: -40px;
+	border-radius: 10px;
+	padding: 10px;
+	overflow:auto;
+	margin-left: -2%;
+}
+hr{
+	width: 50%;
+}
+
+.forord{
+	margin-bottom: 60px;
+	width: 67%;
+	text-shadow:1px 2px 2px rgba(140,140,140,0.2);
+}
+
+section{
+	background-color: rgba(255,255,255,0.4);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px;
+	width: 950px;
+	height: 50%;
+	border-radius: 6px;
+	box-shadow: 1px 5px 20px black;
+	text-shadow:1px 2px 2px rgba(140,140,140,0.2);
+}
+
+article{
+	width:65%;
+}
+article h1{
+	font-size: 1.5em;
+}
+
+.lengerarticlemargin{
+	width:150%;
+}
+
+.favorittable{
+	padding:20px;
+}
+
+.favorittable th, .favorittable tr, .favorittable td{
+	border: 1px solid black;
+	padding:5px;
+}
+
+.table th, .table tr, .table td{
+	border: 1px solid black;
+}
+
+#kontaktlinje{
+	padding-top: 20px;
+}
+
+.hoyre {
+	border: 4px dotted rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	float:right;
+	width: 30%;
+	display: block;
+	}
+
+#hoyrebilde{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.bildeboks{
+	display:block;
+	width:auto;
+	height:auto;
+	max-width: 100%;
+	max-height: 250px;
+}
+
+#indextable td{
+	padding-right: 20px;
+}
+
+#facebook{
+	display:block;
+	margin-top: -7%;
+	max-width:100px;
+	max-height:45px;
+	width:auto;
+	height:auto;
+}
+
+#github{
+	display:block;
+	margin-top: -2%;
+	margin-left: -7%;
+	max-width:100px;
+	max-height:50px;
+	width:auto;
+	height:auto;
+}
+
+
+.mailbilde{
+	display:block;
+	margin-top: -2%;
+	margin-left: -10%;
+	max-width:250px;
+	max-height:250px;
+	width:auto;
+	height:auto;
+}
+
+footer{
+	margin-left: 420px;
+	color:white;
+	text-shadow:3px 3px 6px black;
+}

@@ -1,0 +1,18 @@
+.box {
+	width:15px;
+	height:15px;
+	display:inline-block;
+}
+
+#midnight {
+	background-image:url('img/midnighttoggle.jpg');
+	border:2px black;
+}
+
+#dawn {
+	background-image:url('img/dawntoggle.jpg');
+}
+
+#glass {
+	background-image:url('img/glass.jpg');
+}

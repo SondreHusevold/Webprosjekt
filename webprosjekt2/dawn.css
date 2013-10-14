@@ -1,0 +1,200 @@
+/*Dette er "Dawn" CSSen.*/
+
+body{
+	background-image:url('img/background2.jpg');
+}
+
+
+#stilmellomrom{
+	padding-left: 30%;
+}
+
+
+a:link{
+	color:#DB5656;}
+
+a:visited {
+	color:gray;}
+
+.topnavglasspane{
+	background-color: rgba(0,0,0,0.4);
+	width:61%;
+	margin-top:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color:white;
+	border: 1px solid rgba(255,255,255,0.4);
+}
+
+nav{
+	color:white;
+	width: 100%;
+	float:left;
+	letter-spacing: 1px;
+	text-shadow:1px 1px 2px rgba(255,255,255,0.2);
+}
+
+
+.topnavbuttons{
+	display:inline;
+	padding:8px;
+}
+
+.white-popup {
+  position: relative;
+  background: rgba(0,0,0,0.8);
+  padding: 40px;
+  color:white;
+  width: auto;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.seriebilde{
+	margin:auto;
+	max-width: 700px;
+	max-height: 500px;
+	border-radius: 2px;
+}
+
+header{
+	text-align: center;
+	font-family: arial;
+	font-size: 15px;
+	margin-top: -40px;
+	padding: 2px;
+	overflow:auto;
+	margin-left: -2%;
+	color:white;
+}
+hr{
+	width: 30%;
+	color:white;
+}
+
+.forord{
+	margin-bottom: 60px;
+	width: 100%;
+	text-shadow:1px 2px 2px rgba(255,255,255,0.2);
+}
+
+section{
+	margin-left: auto;
+	margin-right: auto;
+	padding:40px;
+	width: 900px;
+	text-shadow:1px 2px 2px rgba(0,0,0,0.4);
+	color:white;
+	background-color:rgba(0,0,0,0);
+	border: 1px solid rgba(255,255,255,0.4);
+}
+
+article{
+	width:100%;
+	color:white;
+}
+article h1{
+	font-size: 1.5em;
+}
+
+.lengerarticlemargin{
+	width:100%;
+}
+
+.favorittable{
+	padding:20px;
+	display:block;
+    margin:1%;
+	
+}
+
+.favorittable th, .favorittable tr, .favorittable td{
+	border: 1px solid white;
+	padding:20px;
+	
+}
+
+.table th, .table tr, .table td{
+	border: 1px solid white;
+}
+
+#kontaktlinje{
+	padding-top: 20px;
+}
+
+.hoyre {
+	display:none;
+	}
+
+#hoyrebilde{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	display:none;
+}
+
+aside{
+	display:none;
+}
+
+.bildeboks{
+	display:none;
+	width:auto;
+	height:auto;
+	max-width: 100%;
+	max-height: 250px;
+}
+
+#indextable td{
+
+}
+
+#facebook{
+	display:block;
+	margin-top: -7%;
+	max-width:100px;
+	max-height:45px;
+	width:auto;
+	height:auto;
+}
+
+#github{
+	display:block;
+	margin-top: -2%;
+	margin-left: -7%;
+	max-width:100px;
+	max-height:50px;
+	width:auto;
+	height:auto;
+}
+
+
+.mailbilde{
+	margin-top: -10%;
+	margin-left: -10%;
+	max-width:250px;
+	max-height:250px;
+}
+
+.button{
+font-size:14px;
+background-color:rgba(0,0,0,0);
+display:inline-block;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+color:white;
+text-decoration:none;
+text-align:center;
+margin-bottom:5px;
+}
+
+
+footer{
+	margin-right: auto;
+	margin-left: 25%;
+	color:white;
+	text-shadow:3px 3px 6px black;
+}
